@@ -20,7 +20,7 @@ Follow these steps to set up and run the project:
 git clone https://github.com/your-username/GearDetection.git
 cd GearDetection
 pip install ultralytics opencv-python numpy
-## 📂 Project Structure
+##  Project Structure
 The project is structured as follows:
 
 ```bash
