@@ -30,44 +30,40 @@ GearDetection/
 ├── detect.py               # Main script for detection
 ├── README.md               # Project documentation
 
-## 🚀 How to Use
+##  🚀 How to Use
 Run the following command to start detection:
 
 ```bash
 python detect.py
 
-## 🖥️ Code Overview
+##  🖥️ Code Overview
 - Loads a **pre-trained YOLO model**.
 - Reads frames from **video input**.
 - Performs **detection** and draws bounding boxes.
 - Displays **real-time PPE detection**.
 
-## 🎥 Example Output
+##  🎥 Example Output
 Upon running the script, the model will detect PPE and display bounding boxes over detected objects:
 ### Without Helmet:
 
 ![image](https://github.com/user-attachments/assets/7095cbc9-bb9d-42df-9929-fa8e39970d7c)
 
-### With Helmet:
+###  With Helmet:
 ![image](https://github.com/user-attachments/assets/42997ae6-96b6-43db-aa4a-19ae201e3beb)
 
 
-## 🔍 Notes
+##  🔍 Notes
 - Ensure `best.pt` is correctly placed inside the project folder.
 - Modify `scale = 0.3` in `detect.py` to adjust the display size.
 - Replace `worker.mp4` with your own video for testing.
 
-## ❓ Troubleshooting
+##  ❓ Troubleshooting
 ### Issue: `ModuleNotFoundError: No module named 'ultralytics'`
 
 ```bash
 pip install ultralytics
 
 
-
-## 🤝 Contributing
-
-```markdown
 ## 🤝 Contributing
 Contributions are welcome! If you’d like to contribute:
 
@@ -79,10 +75,8 @@ Contributions are welcome! If you’d like to contribute:
 
 
 
-## 📜 License
 
-```markdown
-## 📜 License
+##  📜 License
 This project is open-source and available under the **MIT License**.
 
 
